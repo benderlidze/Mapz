@@ -171,9 +171,9 @@ export const MapboxMap = () => {
           <Layer beforeId="waterway" {...zipLayer} />
         </Source>
 
-        <div className="plogo">
+        {/* <div className="plogo">
           <img src="/dfinity_small.png" />
-        </div>
+        </div> */}
       </Map>
       {selectedZip && <ZipInfo data={selectedZip} />}
     </div>
